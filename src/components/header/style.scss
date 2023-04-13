@@ -6,19 +6,20 @@ $hover-color: #E59C9C;
     justify-content: space-between;
     box-sizing: border-box;
     margin-top: 50px;
-    ul {
+    nav {
         a, a:link, a:visited {
             text-decoration: none;
             color: #FFF;
+            margin-left: 60px ;
+            &.active {
+                color: $hover-color;
+                text-decoration: underline;
+            }
         }
         a:hover {
-            text-decoration: underline;
             color: $hover-color;
         }
+        
         list-style-type: none;
-        li {
-            margin-left: 60px ;
-            display: inline;
-        }
     }
 }

@@ -1,13 +1,11 @@
-import './App.css';
-import { Footer } from './components/footer';
-import Header from './components/header';
+import { BrowserRouter } from "react-router-dom";
+import AppContent from "./components/AppContent/AppContent";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <AppContent/>
+    </BrowserRouter>
   );
 }
 
