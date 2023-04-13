@@ -1,0 +1,17 @@
+.footer {
+    background: #3A3A3A;
+
+    .wrapper{
+        margin: 0 auto;
+        width: 1230px;
+        height: 154px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFF;
+        div {
+            max-height: 48px;
+            text-align: right;
+        }
+    }
+}
