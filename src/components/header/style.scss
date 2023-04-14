@@ -1,0 +1,25 @@
+$hover-color: #E59C9C;
+.header {
+    margin: 0 auto;
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 50px;
+    nav {
+        a, a:link, a:visited {
+            text-decoration: none;
+            color: #FFF;
+            margin-left: 60px ;
+            &.active {
+                color: $hover-color;
+                text-decoration: underline;
+            }
+        }
+        a:hover {
+            color: $hover-color;
+        }
+        
+        list-style-type: none;
+    }
+}
